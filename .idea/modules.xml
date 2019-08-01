@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hicconfserver/hicconfserver.iml" filepath="$PROJECT_DIR$/hicconfserver/hicconfserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiclogio/hiclogio.iml" filepath="$PROJECT_DIR$/hiclogio/hiclogio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicoauth/hicoauth.iml" filepath="$PROJECT_DIR$/hicoauth/hicoauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicscserver/hicscserver.iml" filepath="$PROJECT_DIR$/hicscserver/hicscserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicspider/hicspider.iml" filepath="$PROJECT_DIR$/hicspider/hicspider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicsys/hicsys.iml" filepath="$PROJECT_DIR$/hicsys/hicsys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicturbine/hicturbine.iml" filepath="$PROJECT_DIR$/hicturbine/hicturbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hicuser/hicuser.iml" filepath="$PROJECT_DIR$/hicuser/hicuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiczipkin/hiczipkin.iml" filepath="$PROJECT_DIR$/hiczipkin/hiczipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiczuul/hiczuul.iml" filepath="$PROJECT_DIR$/hiczuul/hiczuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
+    </modules>
+  </component>
+</project>

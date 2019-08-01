@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hiclogio/pom.xml" />
+        <option value="$PROJECT_DIR$/hiczuul/pom.xml" />
+        <option value="$PROJECT_DIR$/hicconfserver/pom.xml" />
+        <option value="$PROJECT_DIR$/hicscserver/pom.xml" />
+        <option value="$PROJECT_DIR$/hiczipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/hicsys/pom.xml" />
+        <option value="$PROJECT_DIR$/hicuser/pom.xml" />
+        <option value="$PROJECT_DIR$/hicturbine/pom.xml" />
+        <option value="$PROJECT_DIR$/hicoauth/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/hicspider/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hictop/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

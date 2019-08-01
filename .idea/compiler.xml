@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hicconfserver" />
+        <module name="hiclogio" />
+        <module name="hicoauth" />
+        <module name="hicscserver" />
+        <module name="hicsys" />
+        <module name="hicturbine" />
+        <module name="hicuser" />
+        <module name="hiczipkin" />
+        <module name="hiczuul" />
+        <module name="service-hi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hicconfserver" target="1.8" />
+      <module name="hiceurekaserver" target="1.8" />
+      <module name="hiclogio" target="1.8" />
+      <module name="hicoauth" target="1.8" />
+      <module name="hicscserver" target="1.8" />
+      <module name="hicsys" target="1.8" />
+      <module name="hicsys (1) (com.hic)" target="1.8" />
+      <module name="hictop" target="1.8" />
+      <module name="hicturbine" target="1.8" />
+      <module name="hicuser" target="1.8" />
+      <module name="hiczipkin" target="1.8" />
+      <module name="hiczuul" target="1.8" />
+      <module name="service-hi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
