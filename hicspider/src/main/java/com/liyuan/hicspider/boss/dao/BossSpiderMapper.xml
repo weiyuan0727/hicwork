@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liyuan.hicspider.boss.dao.BossSpiderMapper">
+    <select id="getcitypath" parameterType="map" resultType="map">
+       SELECT
+            CP.ID,
+            CP.CITYCODE,
+            CP.CITYNAME,
+            CP.HREF
+        FROM
+            city CP
+        WHERE
+            citycode = 'c101010100'
+    </select>
+    <insert id="addCity" parameterType="map">
+        insert into city(
+            citycode,
+            cityname,
+            href
+            )VALUES(
+              #{citycode,jdbcType=VARCHAR},
+              #{cityname,jdbcType=VARCHAR},
+              #{url,jdbcType=VARCHAR}
+            )
+    </insert>
+    <delete id="delCity">
+        DELETE from city where 1=1
+        <if test="citycode!=null and citycode!='null' and citycode!=''">
+            and citycode=#{citycode,jdbcType=VARCHAR}
+        </if>
+    </delete>
+    <insert id="addgongsi"  parameterType="java.util.List" useGeneratedKeys="true" >
+        INSERT INTO gongsi(citycode,
+        gscode,
+        gsmc,
+        tbsrc,
+        zjqk,
+        hy)
+        VALUES
+        <foreach collection ="list" item="item" index= "index" separator =",">            (
+            (21, 1, 1, 1, 1, 1)
+        </foreach>
+    </insert>
+    <delete id="delGongs" parameterType="string">
+        DELETE FROM gongsi   WHERE citycode=#{citycode,jdbcType=VARCHAR}
+    </delete>
+</mapper>
